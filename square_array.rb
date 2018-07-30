@@ -1,7 +1,8 @@
 def square_array(array)
-# narra = [1,2,3]
-# numbers.each { |number| number ** 2
-#   }
+  arr = []
+  array.each { |i| arr << i ** 2 }
+  arr
+end
  array = [1,2,3]
     array.each do |i|puts
       i ** 2
